@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html {
+    font-family: 'Ranchers', cursive;
+    color: white;
+    background-image: url(../Images/running_in_the_90s.jpg);
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 4em;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 10px;
+    padding-left: 175px;
+}
+
+ul li {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+
+:link {
+    color: white;
+}
+
+:visited {
+    color: lightslategray;
+}
+
+.image-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+}
+
+.big-image-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.big-image {
+    display: flex;
+    margin: 100px;
+    height: 600px;
+    width: 600px;
+}
+
+h2, p {
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    width: 800px;
+    margin: auto;
+}
