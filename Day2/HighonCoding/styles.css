@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+header {
+    background-color: lightskyblue;
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+    padding: 20px;
+    margin: 20px;
+}
+
+nav p {
+    font-size: 2em;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+.pinned {
+    background-color: lightgray;
+}
+
+.pinned h2 {
+    font-size: 2em;
+    color: slategray;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.pinned p {
+    padding: 20px;
+}
+
+.feed h2 {
+    color: lightskyblue;
+    padding-bottom: 10px;
+}
+
+.feed div {
+    background-color: orange;
+    display: flex;
+}
+
+.feed div p {
+    color: white;
+    padding-left: 10px;
+    margin: 20%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 300px);
+    padding: 50px;
+    row-gap: 4em;
+    column-gap: 4em;
+    margin: 10%;
+    margin-top: 0px;
+}
+
+.grid div {
+    text-align: center;
+    background: lightgrey;
+}
+
+.grid p {
+    font-size: 3em;
+    margin-block-start: 2em;
+}
