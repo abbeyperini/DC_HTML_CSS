@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+
+html {
+    background: #343933;
+}
+
+a { 
+    color: #d4d2c5; 
+    text-decoration:none; 
+}
+
+a:hover, a:focus {  
+    color: #fff; 
+}
+
+.header-text {
+    color: #d4d2c5;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.header-text h1 {
+    padding: 50px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.left-sidebar {
+    grid-area: sidebar;
+}
+
+.welcome {
+    grid-area: main;
+}
+
+.popular-posts-gallery {
+    grid-area: popular;
+}
+
+.gallery-box img {
+    float: left;
+}
+
+.gallery-box {
+    margin-top: 50px;
+}
+
+.announcement-gallery {
+    grid-area: announcement;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, .5fr;
+    grid-template-areas: 
+    "sidebar main main"
+    "sidebar popular announcement";
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.useful-links-container, .services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.useful-links-container li, .services-container li {
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: disc; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.W3C {
+    padding: 20px;
+    padding-top: 50px;
+}
