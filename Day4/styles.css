@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+
+header {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.pinned {
+    background-color: lightgray;
+}
+
+.pinned h2 {
+    color: slategray;
+}
+
+.feed h2 {
+    color: lightskyblue;
+}
+
+.feed-footer {
+    background-color: orange;
+}
+
+.feed-footer p {
+    color: white;
+}
+
+.nav-box {
+    background: lightgrey;
+}
