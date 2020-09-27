@@ -59,14 +59,13 @@ header {
 .header-text {
     color: #d4d2c5;
     display: flex;
-    margin: auto;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 10px;
 }
 
 .header-text h1 {
-    padding: 50px;
-    font-size: 4em;
+    font-size: 3em;
     display: flex;
     align-items: center;
 }
@@ -85,7 +84,7 @@ header {
 
 .menu-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
@@ -102,7 +101,6 @@ header {
 .left-sidebar {
     grid-area: sidebar;
     background-color: #323732;
-    width: 75%;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -113,28 +111,6 @@ header {
     padding: 10px;
     padding-left: 20px;
 }
-.recent-article {
-    background: url(images/tempatemo_recent_article.jpg) no-repeat;
-    height: 108px;
-    width: 195px;
-    margin-top: 15px;
-}
-
-.recent-article > h4, .recent-article p {
-    color: white;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.recent-article h4 {
-    padding-top: 50px;
-}
-
-.recent-article p {
-    font-weight: 300;
-    font-size: .75em;
-    padding-left: 25px;
-}
 
 .menu {
     grid-area: menu;
@@ -142,8 +118,6 @@ header {
 
 .welcome {
     grid-area: main;
-    margin-top: 50px;
-    margin-bottom: 20px;
 }
 
 .welcome h1 {
@@ -171,8 +145,6 @@ header {
 }
 
 .gallery-box h3 {
-    padding-top: 10px;
-    margin-right: 5px;
     font-size: 1em;
 }
 
@@ -191,7 +163,6 @@ header {
 
 .announcement-gallery {
     grid-area: announcement;
-    margin-left: 40px;
 }
 
 .announcement-gallery > h1 {
@@ -214,26 +185,19 @@ header {
 
 .announcement-container {
     background: url(images/templatemo_2_column_right_bg.jpg) top no-repeat;
-    width: 235px;
-    height: 177px;
+    /* fix this background */
 }
 
-main {
-    background: #aeac9c url(images/templatemo_background_section_mid_bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.grid-container {
+    background-color: #aeac9c;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr, 2fr, 1fr;
     grid-template-areas:
-    ". sidebar menu menu ." 
-    ". sidebar main main ."
-    ". sidebar popular announcement .";
+        "sidebar menu menu"
+        "sidebar main main"
+        "popular announcement .";
     background: transparent;
 }
 
@@ -255,7 +219,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: auto;
     border-top: 10px solid #6e5a4c;
     color: #d0cec2;
 }
@@ -299,3 +262,93 @@ footer p {
 .footer-text :nth-child(4) {
     padding-bottom: 20px;
 }
+
+.gallery-box > p {
+    visibility: hidden;
+    position: absolute;
+}
+
+.ads {
+    visibility: hidden;
+    position: absolute;
+}
+
+@media only screen and (min-width: 401px) {
+
+    .welcome {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    .gallery-box > p {
+        visibility: visible;
+        position: static;
+    }
+
+    .popular-posts-gallery {
+        margin-left: 50px;
+    }
+
+    .announcement-gallery {
+        margin-left: 40px;
+    }
+
+    main {
+        background: #aeac9c url(images/templatemo_background_section_mid_bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        "sidebar menu menu" 
+        "sidebar main main"
+        "sidebar popular announcement";
+    }
+
+    .menu-container {
+        flex-direction: row;
+    }
+
+    .recent-article {
+        height: 108px;
+        width: 195px;
+        background: url(images/tempatemo_recent_article.jpg) no-repeat;
+        margin-top: 15px;
+    }
+
+    .recent-article {
+        background: url(images/tempatemo_recent_article.jpg) no-repeat;
+    
+        margin-top: 15px;
+    }
+    
+    .recent-article > h4, .recent-article p {
+        color: white;
+        text-align: right;
+        padding-right: 10px;
+    }
+    
+    .recent-article h4 {
+        padding-top: 50px;
+    }
+    
+    .recent-article p {
+        font-weight: 300;
+        font-size: .75em;
+        padding-left: 25px;
+    }
+
+    .header-text h1 {
+        font-size: 4em;
+        padding: 50px;
+    }
+}
+
+/* broken popular posts floats on desktop
+padding for everything but header in mobile
+announcements and main backgrounds */
