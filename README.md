@@ -10,7 +10,7 @@ Optional Day 2 assignment:
 ![HighOnCoding Index CSS](HighOnCoding_index_CSS.png)
 ![HighOnCoding Categories CSS](HighOnCoding_categories_CSS.png)
 ![HighOnCoding Index CSS Mobile](HOC_CSS_Index_Mobile.png)
-![HighOnCoding Categories CSS Mobile](HOC_CCS_Cat_M.png)
+![HighOnCoding Categories CSS Mobile](HOC_CSS_Cat_M.png)
 
 We were asked to make a basic responsive website on Day 3:
 ![Responsive Desktop](responsive_desktop.png)
