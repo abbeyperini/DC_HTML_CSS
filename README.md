@@ -32,6 +32,7 @@ Matching original in desktop view (9/26/20):
 ![matching screenshot](screenshots/matching_screenshot.png)
 
 Current mobile screenshot:
+
 ![current mobile screenshot 1](screenshots/current_mobile1.png)
 ![current mobile screenshot 2](screenshots/current_mobile2.png)
 
