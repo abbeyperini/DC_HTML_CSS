@@ -121,6 +121,8 @@ header {
 
 .welcome {
     grid-area: main;
+    background: #aeac9c url(images/templatemo_background_section_mid_bg.jpg);
+    background-size: cover;
 }
 
 .welcome h1 {
@@ -188,7 +190,6 @@ header {
 
 .announcement-container {
     background: url(images/templatemo_2_column_right_bg.jpg) top no-repeat;
-    /* fix this background */
 }
 
 main {
@@ -283,6 +284,10 @@ footer p {
 
 @media only screen and (min-width: 401px) {
 
+    .announcement-container, .welcome {
+        background: none;
+    }
+
     .welcome {
         margin-top: 50px;
         margin-bottom: 20px;
@@ -308,14 +313,6 @@ footer p {
         width: 50%;
         width: 235px;
         margin-left: 20%;
-    }
-
-    main {
-        background: #aeac9c url(images/templatemo_background_section_mid_bg.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
     }
 
     .grid-container {
