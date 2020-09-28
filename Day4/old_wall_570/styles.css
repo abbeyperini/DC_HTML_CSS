@@ -39,7 +39,7 @@ aside > h3, nav > h3 {
 }
 
 .welcome a {
-    color: white;
+    color: black;
 }
 
 .welcome a:hover, .welcome a:focus {
@@ -282,10 +282,74 @@ footer p {
     margin-left: 10%;
 }
 
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 401px) and (max-width: 650px) {
 
-    .announcement-container, .welcome {
+    .announcement-container {
+        background: url(images/new_background.jpg);
+    }
+
+    .announcement a {
+        color: #d4d2c5;
+    }
+
+    .announcement p {
+        color: white;
+    }
+    
+    .welcome {
         background: none;
+    }
+    
+    main {
+        background: url(images/new_background.jpg) no-repeat center;
+    }
+
+    .welcome {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 20%;
+    }
+
+    .welcome p {
+        font-size: 1em;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        "sidebar menu menu"
+        "sidebar main main"
+        "popular announcement .";
+    }
+
+    .announcement-gallery {
+        margin-left: 20%;
+    }
+
+
+}
+
+@media only screen and (min-width: 651px) {
+
+    .announcement-container {
+        background: url(images/new_background.jpg);
+    }
+
+    .announcement a {
+        color: #d4d2c5;
+    }
+
+    .announcement p {
+        color: white;
+    }
+    
+    .welcome {
+        background: none;
+    }
+    
+    main {
+        background: url(images/new_background.jpg) no-repeat center;
     }
 
     .welcome {
@@ -302,6 +366,7 @@ footer p {
     .gallery-box > p {
         visibility: visible;
         position: static;
+        padding: 5px;
     }
 
     .popular-posts-gallery {
@@ -365,10 +430,6 @@ footer p {
     .menu-item {
         border-top: none;
         margin: 0;
-    }
-
-    .gallery-box {
-        overflow: auto;
     }
 
     .gallery-box img {
