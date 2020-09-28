@@ -26,6 +26,8 @@ a:hover, a:focus {
 
 article > h1, aside > h1 {
     color: #6e5a4c;
+    margin: 5px;
+    text-align: center;
 }
 
 aside > h3, nav > h3 {
@@ -86,6 +88,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-top: 5px;
 }
 
 .menu-item {
@@ -93,9 +96,9 @@ header {
     text-align: center;
     list-style-type: none;
     color: #d4d2c5;
-	background: url(images/templatemo_menu_bg.jpg);
-	border: 4px #323732 solid;
-    border-top: none;
+    background: url(images/templatemo_menu_bg.jpg);
+    border: 4px #323732 solid;
+    margin: 10px;
 }
 
 .left-sidebar {
@@ -121,36 +124,35 @@ header {
 }
 
 .welcome h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .welcome p {
     padding-bottom: 10px;
     font-weight: 300;
     font-size: .75em;
+    margin: 5px;
 }
 
 .popular-posts-gallery {
     grid-area: popular;
 }
 
-.popular-posts-gallery h1 {
-    padding-bottom: 20px;
-}
-
 .gallery-box img {
     float: left;
     padding: 10px;
+    margin-left: 20px;
 }
 
 .gallery-box h3 {
     font-size: 1em;
+    width: 110px;
+    margin: 10px;
+    text-align: center;
 }
 
 .gallery-box p {
     font-weight: 300;
-    padding-bottom: 10px;
     font-size: 1em;
 }
 
@@ -163,6 +165,7 @@ header {
 
 .announcement-gallery {
     grid-area: announcement;
+    margin-left: 10%;
 }
 
 .announcement-gallery > h1 {
@@ -188,7 +191,7 @@ header {
     /* fix this background */
 }
 
-.grid-container {
+main {
     background-color: #aeac9c;
 }
 
@@ -273,12 +276,22 @@ footer p {
     position: absolute;
 }
 
+.welcome-text {
+    margin: 2%;
+    margin-left: 10%;
+}
+
 @media only screen and (min-width: 401px) {
 
     .welcome {
         margin-top: 50px;
         margin-bottom: 20px;
         margin-left: 50px;
+        margin-right: 20%;
+    }
+
+    .welcome p {
+        font-size: 1em;
     }
 
     .gallery-box > p {
@@ -287,11 +300,14 @@ footer p {
     }
 
     .popular-posts-gallery {
-        margin-left: 50px;
+        margin-left: 30%;
+        width: 50%;
     }
 
     .announcement-gallery {
-        margin-left: 40px;
+        width: 50%;
+        width: 235px;
+        margin-left: 20%;
     }
 
     main {
@@ -312,6 +328,7 @@ footer p {
 
     .menu-container {
         flex-direction: row;
+        padding: 0;
     }
 
     .recent-article {
@@ -347,8 +364,30 @@ footer p {
         font-size: 4em;
         padding: 50px;
     }
+
+    .menu-item {
+        border-top: none;
+        margin: 0;
+    }
+
+    .gallery-box {
+        overflow: auto;
+    }
+
+    .gallery-box img {
+        margin-left: 0;
+    }
+
+    .gallery-box h3 {
+        width: 100%;
+        margin: 5px;
+        text-align: unset;
+    }
+
+    .popular-posts-gallery h1 {
+        padding-bottom: 20px;
+    }
+
 }
 
-/* broken popular posts floats on desktop
-padding for everything but header in mobile
-announcements and main backgrounds */
+/* main background and tablet */

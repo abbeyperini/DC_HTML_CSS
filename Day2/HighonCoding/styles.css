@@ -44,10 +44,6 @@ article {
     padding-bottom: 20px;
 }
 
-.pinned p {
-    padding: 20px;
-}
-
 .feed h2 {
     color: lightskyblue;
     padding-bottom: 10px;
@@ -61,7 +57,7 @@ article {
 .feed div p {
     color: white;
     padding-left: 10px;
-    margin: 20%;
+    margin: 5px;
 }
 
 .grid {
@@ -83,4 +79,21 @@ article {
 .grid p {
     font-size: 3em;
     margin-block-start: 2em;
+}
+
+@media screen and (max-width: 1230px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(3, 300px);
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(6, 300px);
+        margin-left: 25%;
+    }
 }
