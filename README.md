@@ -36,6 +36,8 @@ Current mobile screenshot:
 ![current mobile screenshot 1](screenshots/current_mobile1.png)
 ![current mobile screenshot 2](screenshots/current_mobile2.png)
 
+New background image from rawpixel.com
+
 Current tablet screenshot:
 ![current tablet screenshot 1](screenshots/current_tablet1.png)
 ![current tablet screenshot 2](screenshots/current_tablet2.png)
