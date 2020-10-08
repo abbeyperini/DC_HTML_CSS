@@ -55,9 +55,11 @@
 - Prompt: Download the original website and make it responsive for mobile. Original files included in this repository.
 
 *Original:*
+
 <img src="screenshots/original_screenshot.png" alt="Original Screenshot" width="900" height="600"/>
 
 *Matching original in desktop view (9/26/20):*
+
 <img src="screenshots/matching_screenshot.png" alt="Matching Screenshot" width="900" height="600"/>
 
 *Current mobile screenshots:*
@@ -69,11 +71,13 @@
 - New background image from rawpixel.com
 
 *Current tablet screenshot:*
+
 <img src="screenshots/current_tablet1.png" alt="Current Tablet Screenshot 1" width="600" height="600"/>
 
 <img src="screenshots/current_tablet2.png" alt="Current Tablet Screenshot 2" width="600" height="600"/>
 
 *Current desktop screenshot:*
+
 <img src="screenshots/current_desktop.png" alt="Current Desktop Screenshot" width="900" height="600"/>
 
 ## Acknowledgments
