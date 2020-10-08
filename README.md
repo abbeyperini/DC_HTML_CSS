@@ -47,9 +47,9 @@
 
 <img src="screenshots/HighOnCoding_categories_Bootstrap.png" alt="HighOnCoding Categories Bootstrap" width="900" height="600"/>
 
-<img src="screenshots/HOC_Bootstrap_Index_Mobile.png" alt="HighOnCoding Index Bootstrap Mobile" width="400" height="1000"/>
+<img src="screenshots/HOC_Bootstrap_Index_Mobile.png" alt="HighOnCoding Index Bootstrap Mobile" width="500" height="800"/>
 
-<img src="screenshots/HOC_Bootstrap_Categories_Mobile.png" alt="HighOnCoding Categories Bootstrap Mobile" width="400" height="1000"/>
+<img src="screenshots/HOC_Bootstrap_Categories_Mobile.png" alt="HighOnCoding Categories Bootstrap Mobile" width="500" height="800"/>
 
 - I also did the optional Day 4 hard assignment - see the original code for the website in Day4/old_wall_570/original
 - Prompt: Download the original website and make it responsive for mobile. Original files included in this repository.
