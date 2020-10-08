@@ -47,9 +47,9 @@
 
 <img src="screenshots/HighOnCoding_categories_Bootstrap.png" alt="HighOnCoding Categories Bootstrap" width="900" height="600"/>
 
-<img src="screenshots/HOC_Bootstrap_Index_Mobile.png" alt="HighOnCoding Index Bootstrap Mobile" width="360" height="1000"/>
+<img src="screenshots/HOC_Bootstrap_Index_Mobile.png" alt="HighOnCoding Index Bootstrap Mobile" width="400" height="1000"/>
 
-<img src="screenshots/HOC_Bootstrap_Categories_Mobile.png" alt="HighOnCoding Categories Bootstrap Mobile" width="360" height="1000"/>
+<img src="screenshots/HOC_Bootstrap_Categories_Mobile.png" alt="HighOnCoding Categories Bootstrap Mobile" width="400" height="1000"/>
 
 - I also did the optional Day 4 hard assignment - see the original code for the website in Day4/old_wall_570/original
 - Prompt: Download the original website and make it responsive for mobile. Original files included in this repository.
@@ -69,9 +69,9 @@
 - New background image from rawpixel.com
 
 *Current tablet screenshot:*
-<img src="screenshots/current_tablet1.png" alt="Current Tablet Screenshot 1" width="900" height="600"/>
+<img src="screenshots/current_tablet1.png" alt="Current Tablet Screenshot 1" width="600" height="600"/>
 
-<img src="screenshots/current_tablet2.png" alt="Current Tablet Screenshot 2" width="900" height="600"/>
+<img src="screenshots/current_tablet2.png" alt="Current Tablet Screenshot 2" width="600" height="600"/>
 
 *Current desktop screenshot:*
 <img src="screenshots/current_desktop.png" alt="Current Desktop Screenshot" width="900" height="600"/>
